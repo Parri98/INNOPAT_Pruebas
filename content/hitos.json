@@ -1,0 +1,270 @@
+[
+  {
+    "id": "H01",
+    "slug": "hito-01",
+    "order": 1,
+    "title": "Hito 01",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": null,
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.397293,
+      "lng": -6.0076663
+    },
+    "coordinatesStatus": "provisional-demo"
+  },
+  {
+    "id": "H02",
+    "slug": "hito-02",
+    "order": 2,
+    "title": "Hito 02",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": null,
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.39741,
+      "lng": -6.00743
+    },
+    "coordinatesStatus": "provisional-demo"
+  },
+  {
+    "id": "H03",
+    "slug": "hito-03",
+    "order": 3,
+    "title": "Hito 03",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": {
+      "enabled": true,
+      "url": "",
+      "poster": "",
+      "description": "Modelo 3D pendiente de incorporación."
+    },
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.39754,
+      "lng": -6.00718
+    },
+    "coordinatesStatus": "provisional-demo"
+  },
+  {
+    "id": "H04",
+    "slug": "hito-04",
+    "order": 4,
+    "title": "Hito 04",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": null,
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.39762,
+      "lng": -6.0069
+    },
+    "coordinatesStatus": "provisional-demo"
+  },
+  {
+    "id": "H05",
+    "slug": "hito-05",
+    "order": 5,
+    "title": "Hito 05",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": null,
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.39745,
+      "lng": -6.00663
+    },
+    "coordinatesStatus": "provisional-demo"
+  },
+  {
+    "id": "H06",
+    "slug": "hito-06",
+    "order": 6,
+    "title": "Hito 06",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": {
+      "enabled": true,
+      "url": "",
+      "poster": "",
+      "description": "Modelo 3D pendiente de incorporación."
+    },
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.39719,
+      "lng": -6.00656
+    },
+    "coordinatesStatus": "provisional-demo"
+  },
+  {
+    "id": "H07",
+    "slug": "hito-07",
+    "order": 7,
+    "title": "Hito 07",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": null,
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.39696,
+      "lng": -6.0067
+    },
+    "coordinatesStatus": "provisional-demo"
+  },
+  {
+    "id": "H08",
+    "slug": "hito-08",
+    "order": 8,
+    "title": "Hito 08",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": null,
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.39683,
+      "lng": -6.00698
+    },
+    "coordinatesStatus": "provisional-demo"
+  },
+  {
+    "id": "H09",
+    "slug": "hito-09",
+    "order": 9,
+    "title": "Hito 09",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": {
+      "enabled": true,
+      "url": "",
+      "poster": "",
+      "description": "Modelo 3D pendiente de incorporación."
+    },
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.39689,
+      "lng": -6.00729
+    },
+    "coordinatesStatus": "provisional-demo"
+  },
+  {
+    "id": "H10",
+    "slug": "hito-10",
+    "order": 10,
+    "title": "Hito 10",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": null,
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.39703,
+      "lng": -6.00756
+    },
+    "coordinatesStatus": "provisional-demo"
+  },
+  {
+    "id": "H11",
+    "slug": "hito-11",
+    "order": 11,
+    "title": "Hito 11",
+    "status": "pending",
+    "summary": "Contenido interpretativo pendiente de definición y validación por el equipo INNOPAT.",
+    "locationText": "Localización e indicaciones de acceso pendientes de validación en el recinto.",
+    "duration": "1–2 min",
+    "heroImage": "",
+    "mainVideo": "",
+    "transcript": "La transcripción aparecerá aquí cuando se incorpore el vídeo definitivo.",
+    "captions": "",
+    "easyRead": "",
+    "pills": [],
+    "model3d": null,
+    "rights": "Pendiente de documentar",
+    "coordinates": {
+      "lat": 37.39717,
+      "lng": -6.00781
+    },
+    "coordinatesStatus": "provisional-demo"
+  }
+]
