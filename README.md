@@ -1,6 +1,6 @@
 # INNOPAT · La Cartuja · PWA de visita
 
-**Versión estable: 2.0.0 — 11 de septiembre de 2026**
+**Versión estable: 3.4.0 — 12 de septiembre de 2026**
 
 Prototipo funcional mobile-first preparado para GitHub Pages y para servir posteriormente como frontend desacoplado de OpenCms.
 
@@ -56,7 +56,14 @@ La experiencia de usuario, estado local, plano, GPS y 3D quedan en el frontend.
 - `VERSION` contiene la versión estable actual.
 - `CHANGELOG.md` registra los cambios entre versiones.
 - La Versión 2 corresponde a `v2.0.0`.
+- La Versión 3 corresponde a `v3.0.0`.
+- La Versión 3.1 corresponde a `v3.1.0`.
+- La Versión 3.2 corresponde a `v3.2.0`.
 - Las siguientes evoluciones se conservarán como `v3.0.0`, `v4.0.0`, etc., sin sustituir los paquetes anteriores.
 
 ## GitHub Pages
 Consulta [`docs/GITHUB_PAGES.md`](docs/GITHUB_PAGES.md) para publicar la aplicación directamente desde la rama `main`.
+
+- La Versión 3.3 corresponde a `v3.3.0`.
+
+- La Versión 3.4 corresponde a `v3.4.0`.

@@ -1,5 +1,5 @@
 
-const CACHE = "innopat-shell-v2";
+const CACHE = "innopat-shell-v34";
 const CORE = [
   "./",
   "./index.html",
@@ -9,7 +9,9 @@ const CORE = [
   "./manifest.webmanifest",
   "./content/hitos.json",
   "./assets/icon-192.svg",
-  "./assets/icon-512.svg"
+  "./assets/icon-512.svg",
+  "./assets/brand/innopat-logo.png",
+  "./assets/brand/logos-junta-financia-desarrolla.jpg"
 ];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)));

@@ -82,9 +82,7 @@
   const $$ = (s, root=document) => [...root.querySelectorAll(s)];
 
   function setRemoteAssets() {
-    const brand = $("#institutionalBrand");
     const hero = $("#heroImage");
-    if (brand && config.institutionalBrandImage) brand.src = config.institutionalBrandImage;
     if (hero && config.monasteryImage) hero.src = config.monasteryImage;
   }
 
@@ -122,6 +120,7 @@
       button.innerHTML = `
         <span class="hito-number">${String(hito.order).padStart(2,"0")}</span>
         <h3>${escapeHtml(hito.title)}</h3>
+        ${hito.subtitle ? `<span class="hito-subtitle">${escapeHtml(hito.subtitle)}</span>` : ""}
         <p>${escapeHtml(hito.summary)}</p>
         <span class="hito-meta"><span>${escapeHtml(hito.duration || "1–2 min")}</span><span class="visited-badge">Visitado ✓</span></span>
       `;
@@ -174,9 +173,45 @@
     const h = state.hitos[state.activeIndex];
     $("#dialogPosition").textContent = `HITO ${h.order} DE ${state.hitos.length}`;
     $("#dialogTitle").textContent = h.title;
+    $("#dialogSubtitle").textContent = h.subtitle || "";
     $("#dialogSummary").textContent = h.summary;
     $("#dialogLocation").textContent = h.locationText;
     $("#dialogTranscript").textContent = h.transcript || "Transcripción pendiente.";
+
+    const main = $("#dialogMainContent");
+    main.innerHTML = "";
+    const mainItems = Array.isArray(h.mainContent) ? h.mainContent : (h.mainContent ? [h.mainContent] : []);
+    if (mainItems.length) {
+      const ul = document.createElement("ul");
+      ul.className = "detail-list";
+      mainItems.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul.append(li);
+      });
+      main.append(ul);
+    } else {
+      main.textContent = "Contenido pendiente de completar.";
+    }
+
+    $("#dialogScience").textContent = h.science || "Pendiente de definir.";
+    $("#dialogAnecdote").textContent = h.anecdote || "Pendiente de definir.";
+
+    const extra = $("#dialogExtra");
+    extra.innerHTML = "";
+    const extraItems = Array.isArray(h.extra) ? h.extra : (h.extra ? [h.extra] : []);
+    if (extraItems.length) {
+      const ul = document.createElement("ul");
+      ul.className = "detail-list";
+      extraItems.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = item;
+        ul.append(li);
+      });
+      extra.append(ul);
+    } else {
+      extra.textContent = "Sin recursos adicionales definidos todavía.";
+    }
     $("#modelBlock").hidden = !(h.model3d && h.model3d.enabled);
     $("#modelPlaceholder").hidden = true;
     $("#transcriptPanel").hidden = true;
